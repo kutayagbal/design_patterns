@@ -4,18 +4,15 @@ public class Test {
 
 	public static void main(String[] args) {
 		MazeGame game = new MazeGame();
-		MazeBuilder builder = new StandartMazeBuilder();
+		StandartMazeBuilder stdBuilder = new StandartMazeBuilder();
 
-		game.createMaze(builder);
-		Maze maze = builder.getMaze();
+		game.createMaze(stdBuilder);
+		Maze maze = stdBuilder.getMaze();
+		System.out.println(maze.toString());
 
-		builder = new CountingMazeBuilder();
-		game.createMaze(builder);
+		CountingMazeBuilder cntBuilder = new CountingMazeBuilder();
+		game.createMaze(cntBuilder);
 
-		int[] counts = builder.getCounts();
-
-		System.out.println("The maze has " + counts[1] + " rooms and " + counts[0] + " doors");
-
+		System.out.println("The maze has " + cntBuilder.getRoomCount() + " rooms and " + cntBuilder.getDoorCount() + " doors");
 	}
-
 }

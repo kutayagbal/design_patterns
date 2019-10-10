@@ -4,7 +4,7 @@ public class StandartMazeBuilder extends MazeBuilder {
 
 	private Maze currentMaze;
 
-	Direction commonWall(Room r1, Room r2) {
+	private Direction commonWall(Room r1, Room r2) {
 		if (r1.getSide(Direction.EAST) == r2)
 			return Direction.EAST;
 		else if (r1.getSide(Direction.NORTH) == r2)
@@ -40,7 +40,6 @@ public class StandartMazeBuilder extends MazeBuilder {
 		r2.setSide(commonWall(r2, r1), d);
 	}
 
-	@Override
 	Maze getMaze() {
 		return currentMaze;
 	}

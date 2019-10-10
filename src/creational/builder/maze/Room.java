@@ -20,4 +20,9 @@ class Room extends MapSite {
 	public MapSite getSide(Direction direction) {
 		return sides[direction.ordinal()];
 	}
+	
+	@Override
+	public String toString() {
+		return "Room number " + roomNo;
+	}
 }

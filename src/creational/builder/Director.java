@@ -7,7 +7,7 @@ public class Director {
 		this.builder = builder;
 	}
 
-	Product2 construct() {
+	void construct() {
 		String[] arr = { "a", "bb", "ccc", "d" };
 		for (String s : arr) {
 			if (s.length() == 1)
@@ -17,7 +17,10 @@ public class Director {
 			else
 				builder.buildPart3();
 		}
-
-		return ((ConcreteBuilder2) builder).getProduct2();
 	}
+
+	public void setBuilder(AbstractBuilder builder) {
+		this.builder = builder;
+	}
+
 }

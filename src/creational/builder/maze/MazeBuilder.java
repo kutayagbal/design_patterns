@@ -9,12 +9,4 @@ public abstract class MazeBuilder {
 
 	void buildDoor(int roomFrom, int roomTo) {
 	}
-
-	Maze getMaze() {
-		return null;
-	}
-	
-	int[] getCounts() {
-		return null;
-	}
 }
