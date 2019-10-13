@@ -1,9 +1,8 @@
-package creational.abstract_factory.maze;
+package creational.factory_method.maze;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-//May be an abstract class but then we need a StandardRoom class for a standard room.
 class Room extends MapSite {
 	private int roomNo;
 	protected MapSite[] sides;
@@ -17,14 +16,10 @@ class Room extends MapSite {
 		return this.roomNo;
 	}
 
-	void enter() {
-		System.out.println("You're now in Standart Room " + roomNo);
-	}
-
 	public void setSide(Direction direction, MapSite site) {
 		sides[direction.ordinal()] = site;
 	}
-	
+
 	@Override
 	public String toString() {
 		StringBuffer buf = new StringBuffer("Standart Room No: " + roomNo + " ");

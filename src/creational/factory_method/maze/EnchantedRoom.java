@@ -1,4 +1,4 @@
-package creational.abstract_factory.maze;
+package creational.factory_method.maze;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -8,12 +8,7 @@ public class EnchantedRoom extends Room {
 	public EnchantedRoom(int roomNo) {
 		super(roomNo);
 	}
-
-	@Override
-	void enter() {
-		System.out.println("You are in the Enchanted Room " + getRoomNo());
-	}
-
+	
 	@Override
 	public String toString() {
 		StringBuffer buf = new StringBuffer("Enchanted Room No: " + super.getRoomNo() + " ");

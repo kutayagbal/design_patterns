@@ -12,7 +12,6 @@ public class Test {
 
 		CountingMazeBuilder cntBuilder = new CountingMazeBuilder();
 		game.createMaze(cntBuilder);
-
-		System.out.println("The maze has " + cntBuilder.getRoomCount() + " rooms and " + cntBuilder.getDoorCount() + " doors");
+		cntBuilder.countMaze();
 	}
 }

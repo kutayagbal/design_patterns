@@ -13,6 +13,7 @@ public class MazeGame {
 		builder.buildRoom(1);
 		builder.buildRoom(2);
 		builder.buildRoom(3);
+		builder.buildRoom(4);
 		//...
 		builder.buildRoom(1001);
 	}

@@ -1,4 +1,4 @@
-package creational.abstract_factory.maze;
+package creational.factory_method.maze;
 
 public class DoorNeedingSpell extends Door {
 
@@ -7,14 +7,8 @@ public class DoorNeedingSpell extends Door {
 	}
 
 	@Override
-	void enter() {
-		System.out.println("Say the Spell to enter");
-	}
-	
-	@Override
 	public String toString() {
 		return "Door Needing Spell between Room " + super.getRoom1().getRoomNo() + " Room "
 				+ super.getRoom2().getRoomNo();
 	}
-
 }

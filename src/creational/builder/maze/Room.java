@@ -1,5 +1,8 @@
 package creational.builder.maze;
 
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 class Room extends MapSite {
 	private int roomNo;
 	private MapSite[] sides;
@@ -23,6 +26,10 @@ class Room extends MapSite {
 	
 	@Override
 	public String toString() {
-		return "Room number " + roomNo;
+		StringBuffer buf = new StringBuffer("Standart Room No: " + roomNo + " ");
+		buf.append("with sides: \n");
+
+		buf.append(Stream.of(sides).map(e -> e.toString()).collect(Collectors.joining(", ")));
+		return buf.toString();
 	}
 }

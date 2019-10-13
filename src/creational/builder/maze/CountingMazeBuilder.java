@@ -13,12 +13,8 @@ public class CountingMazeBuilder extends MazeBuilder {
 	void buildDoor(int roomFrom, int roomTo) {
 		doorCount++;
 	}
-
-	public int getDoorCount() {
-		return doorCount;
-	}
-
-	public int getRoomCount() {
-		return roomCount;
+	
+	void countMaze() {
+		System.out.println("Counting the maze: " + roomCount + " rooms and " + doorCount + " doors");
 	}
 }

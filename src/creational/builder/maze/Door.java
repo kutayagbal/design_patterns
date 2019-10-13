@@ -13,5 +13,10 @@ class Door extends MapSite {
 	public boolean isOpen() {
 		return isOpen;
 	}
+	
+	@Override
+	public String toString() {
+		return "Standart Door between Room " + room1.getRoomNo() + " Room " + room2.getRoomNo();
+	}
 
 }

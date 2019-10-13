@@ -1,4 +1,4 @@
-package creational.builder.maze;
+package creational.factory_method.maze;
 
 class Wall extends MapSite {
 

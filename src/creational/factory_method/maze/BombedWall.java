@@ -1,11 +1,6 @@
-package creational.abstract_factory.maze;
+package creational.factory_method.maze;
 
 public class BombedWall extends Wall {
-
-	@Override
-	void enter() {
-		super.enter();
-	}
 
 	@Override
 	public String toString() {

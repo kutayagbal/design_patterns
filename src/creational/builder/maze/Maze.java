@@ -19,12 +19,12 @@ class Maze{
 	Room getRoom(int roomNo) {
 		return rooms.get(roomNo);
 	}
-	
+
 	@Override
 	public String toString() {
-		String str = "The Maze has " + rooms.size() + " rooms => ";
-		
-		str += rooms.entrySet().stream().map( e -> e.getValue().toString()).collect(Collectors.joining( ", " ));
-		return str;
+		StringBuffer buf = new StringBuffer("The Maze has " + rooms.size() + " rooms: \n");
+
+		buf.append(rooms.entrySet().stream().map(e -> e.getValue().toString()).collect(Collectors.joining("\n")));
+		return buf.append("\n").toString();
 	}
 }

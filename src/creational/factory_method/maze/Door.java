@@ -1,4 +1,4 @@
-package creational.abstract_factory.maze;
+package creational.factory_method.maze;
 
 class Door extends MapSite {
 	private boolean isOpen;
@@ -22,13 +22,6 @@ class Door extends MapSite {
 		return room2;
 	}
 
-	@Override
-	void enter() {
-		if (!isOpen) {
-			System.out.println("The door is closed.");
-		}
-	}
-	
 	@Override
 	public String toString() {
 		return "Standart Door between Room " + room1.getRoomNo() + " Room " + room2.getRoomNo();

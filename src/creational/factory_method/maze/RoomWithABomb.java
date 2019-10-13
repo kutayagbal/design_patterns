@@ -1,4 +1,4 @@
-package creational.abstract_factory.maze;
+package creational.factory_method.maze;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -7,11 +7,6 @@ public class RoomWithABomb extends Room {
 
 	public RoomWithABomb(int roomNo) {
 		super(roomNo);
-	}
-
-	@Override
-	void enter() {
-		System.out.println("Your are in a Room With A Bomb");
 	}
 
 	@Override
