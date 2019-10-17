@@ -28,7 +28,7 @@ public class MazeGame {
 		return maze;
 	}
 
-	// factory methods
+	// factory methods	--------------------
 	Maze makeMaze() {
 		return new Maze();
 	}
@@ -44,7 +44,7 @@ public class MazeGame {
 	Door makeDoor(Room r1, Room r2) {
 		return new Door(r1, r2);
 	}
-	// factory methods
+	// factory methods	--------------------
 	
 	@Override
 	public String toString() {
