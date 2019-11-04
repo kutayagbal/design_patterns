@@ -9,12 +9,12 @@ public class ConcreteBuilder1 extends AbstractBuilder {
 
 	@Override
 	void buildPart1() {
-		p1.setPart1("This is first part of Product1");
+		p1.setPart1("A1");
 	}
 
 	@Override
 	void buildPart2() {
-		p1.setPart2("This is last part of Product1");
+		p1.setPart2("A2");
 	}
 
 	Product1 getProduct1() {

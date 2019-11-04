@@ -22,6 +22,7 @@ public class Product2 {
 
 	@Override
 	public String toString() {
-		return getPart1() + "\n" + getPart3();
+		return "Product2 [part1=" + part1 + ", part3=" + part3 + "]";
 	}
+
 }
