@@ -1,9 +1,7 @@
 package structural.bridge;
 
 public abstract class Implementor {
-	void operationImpl_1() {
-	}
+	abstract void operationImpl_1();
 
-	void operationImpl_2() {
-	}
+	abstract void operationImpl_2();
 }

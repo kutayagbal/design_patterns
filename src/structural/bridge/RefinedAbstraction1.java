@@ -9,7 +9,7 @@ public class RefinedAbstraction1 extends Abstraction {
 	@Override
 	public void operation() {
 		System.out.println(this.toString() + " calling...");
-		super.implementor.operationImpl_1();
+		super.getImplementor().operationImpl_1();
 	}
 
 }

@@ -1,12 +1,15 @@
 package structural.bridge;
 
 public abstract class Abstraction {
-	protected Implementor implementor;
+	private Implementor implementor;
 
 	public Abstraction(Implementor imp) {
 		this.implementor = imp;
 	}
 
-	public void operation() {
+	protected Implementor getImplementor() {
+		return this.implementor;
 	}
+
+	abstract void operation();
 }
