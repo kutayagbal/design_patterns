@@ -1,5 +1,11 @@
-package gof.behavioral;
+package gof.behavioral.strategy;
 
+import gof.behavioral.strategy.character.Character;
+import gof.behavioral.strategy.character.King;
+import gof.behavioral.strategy.character.Knight;
+import gof.behavioral.strategy.character.Queen;
+import gof.behavioral.strategy.character.Troll;
+import gof.behavioral.strategy.weapon.SwordBehavior;
 
 public class StrategyTest {
     /*

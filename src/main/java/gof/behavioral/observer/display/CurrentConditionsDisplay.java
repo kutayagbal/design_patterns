@@ -1,4 +1,6 @@
-package gof.behavioral;
+package gof.behavioral.observer.display;
+
+import gof.behavioral.observer.subject.WeatherData;
 
 public class CurrentConditionsDisplay implements Display, Observer {
     private float temperature;

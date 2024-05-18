@@ -1,6 +1,6 @@
-package bin.main.java.gof.behavioral.observer.display;
+package gof.behavioral.observer.display;
 
-import bin.main.java.gof.behavioral.observer.subject.WeatherData;
+import gof.behavioral.observer.subject.WeatherData;
 
 public class ForecastDisplay implements Display, Observer {
     private float currentPressure;

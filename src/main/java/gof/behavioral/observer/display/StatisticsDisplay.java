@@ -1,10 +1,10 @@
-package bin.main.java.gof.behavioral.observer.display;
+package gof.behavioral.observer.display;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import bin.main.java.gof.behavioral.observer.subject.WeatherData;
+import gof.behavioral.observer.subject.WeatherData;
 
 public class StatisticsDisplay implements Display, Observer {
     private WeatherData weatherData;

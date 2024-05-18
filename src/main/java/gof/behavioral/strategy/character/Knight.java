@@ -1,6 +1,6 @@
-package bin.main.java.gof.behavioral.strategy.character;
+package gof.behavioral.strategy.character;
 
-import bin.main.java.gof.behavioral.strategy.weapon.BowAndArrowBehavior;
+import gof.behavioral.strategy.weapon.BowAndArrowBehavior;
 
 public class Knight extends Character {
     public Knight() {

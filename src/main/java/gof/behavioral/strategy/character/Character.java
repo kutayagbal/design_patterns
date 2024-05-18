@@ -1,6 +1,6 @@
-package bin.main.java.gof.behavioral.strategy.character;
+package gof.behavioral.strategy.character;
 
-import bin.main.java.gof.behavioral.strategy.weapon.WeaponBehavior;
+import gof.behavioral.strategy.weapon.WeaponBehavior;
 
 public abstract class Character {
     protected WeaponBehavior weapon;

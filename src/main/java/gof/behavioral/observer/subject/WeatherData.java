@@ -1,9 +1,9 @@
-package bin.main.java.gof.behavioral.observer.subject;
+package gof.behavioral.observer.subject;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import bin.main.java.gof.behavioral.observer.display.Observer;
+import gof.behavioral.observer.display.Observer;
 
 public class WeatherData implements Subject {
     private List<Observer> observers;

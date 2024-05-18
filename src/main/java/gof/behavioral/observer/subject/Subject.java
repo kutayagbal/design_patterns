@@ -1,6 +1,6 @@
-package bin.main.java.gof.behavioral.observer.subject;
+package gof.behavioral.observer.subject;
 
-import bin.main.java.gof.behavioral.observer.display.Observer;
+import gof.behavioral.observer.display.Observer;
 
 public interface Subject {
     public void registerObserver(Observer o);

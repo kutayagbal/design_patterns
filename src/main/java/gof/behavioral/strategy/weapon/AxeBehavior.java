@@ -1,4 +1,4 @@
-package bin.main.java.gof.behavioral.strategy.weapon;
+package gof.behavioral.strategy.weapon;
 
 public class AxeBehavior implements WeaponBehavior {
     @Override

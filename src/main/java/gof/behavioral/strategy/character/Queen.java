@@ -1,6 +1,6 @@
-package bin.main.java.gof.behavioral.strategy.character;
+package gof.behavioral.strategy.character;
 
-import bin.main.java.gof.behavioral.strategy.weapon.KnifeBehavior;
+import gof.behavioral.strategy.weapon.KnifeBehavior;
 
 public class Queen extends Character {
 
