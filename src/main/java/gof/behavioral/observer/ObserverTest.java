@@ -3,7 +3,7 @@ package gof.behavioral.observer;
 import gof.behavioral.observer.display.CurrentConditionsDisplay;
 import gof.behavioral.observer.display.ForecastDisplay;
 import gof.behavioral.observer.display.StatisticsDisplay;
-import gof.behavioral.observer.subject.WeatherData;
+import gof.behavioral.observer.weather.WeatherData;
 
 public class ObserverTest {
     /*

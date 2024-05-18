@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import gof.behavioral.observer.subject.WeatherData;
+import gof.behavioral.observer.weather.WeatherData;
 
 public class StatisticsDisplay implements Display, Observer {
     private WeatherData weatherData;

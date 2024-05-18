@@ -1,4 +1,4 @@
-package gof.behavioral.observer.subject;
+package gof.behavioral.observer.weather;
 
 import gof.behavioral.observer.display.Observer;
 
