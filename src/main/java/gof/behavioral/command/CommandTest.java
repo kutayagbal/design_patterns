@@ -18,6 +18,16 @@ import gof.behavioral.command.remote_control.StereoOffCommand;
 import gof.behavioral.command.remote_control.StereoOnWithCDCommand;
 
 public class CommandTest {
+    /*
+     * COMMAND: Encapsulates a request as an object, thereby letting you
+     * parameterize other objects with different requests, queue or log requests,
+     * and support undoable operations.
+     * 
+     * Commands are an object oriented replacement for callbacks
+     * 
+     * Command, packages actions and the receiver into an object and exposes
+     * execute(), undo() methods to run the actions on the receiver.
+     */
     public static void main(String[] args) {
         SimpleRemoteControl remote = new SimpleRemoteControl();
 
