@@ -14,8 +14,8 @@ public class AbstractFactoryTest {
      * product is implemented by subclasses to create different concrete products.
      * 
      * Abstract Factory uses composition. You compose the client with an Abstract
-     * Factory and specify concrete factories on runtime to create different
-     * families of related concrete products.
+     * Factory and specify concrete factories on runtime to create concrete
+     * products using factory methods.
      */
     public static void main(String[] args) {
         PizzaStore nyStylePizzaStore = new PizzaStore(new NYPizzaIngredientFactory());
